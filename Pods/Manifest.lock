@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.3.0)
+  - Cosmos (23.0.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - Kingfisher (5.15.6):
+    - Kingfisher/Core (= 5.15.6)
+  - Kingfisher/Core (5.15.6)
+  - MOLH (1.4.1)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - SideMenu (6.5.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Cosmos
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - MOLH
+  - NVActivityIndicatorView (~> 4.8.0)
+  - SideMenu
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cosmos
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - MOLH
+    - NVActivityIndicatorView
+    - SideMenu
+
+SPEC CHECKSUMS:
+  Alamofire: 2c792affbdc2f18016e08fdbcacd60aebe1ba593
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Kingfisher: b3554e7bf6106115b44e8795300bad580ef2fdc7
+  MOLH: 9ea6c0390f5963b2df9827ae64035fbc8598b092
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+
+PODFILE CHECKSUM: 8fca764b10b2daeecdd014d6cf5376c5c936ea72
+
+COCOAPODS: 1.10.0.rc.1

@@ -1,0 +1,6 @@
+framework module Pods_Cairo_Cart {
+  umbrella header "Pods-Cairo Cart-umbrella.h"
+
+  export *
+  module * { export * }
+}

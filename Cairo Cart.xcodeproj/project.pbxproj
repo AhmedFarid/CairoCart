@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,15 @@
 		691FAB59253F0D1F00BC7B20 /* imageViewCostom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691FAB58253F0D1F00BC7B20 /* imageViewCostom.swift */; };
 		691FAB5C253F0D4000BC7B20 /* textFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691FAB5B253F0D4000BC7B20 /* textFieldView.swift */; };
 		691FAB5F253F0D5A00BC7B20 /* viewCosttom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691FAB5E253F0D5A00BC7B20 /* viewCosttom.swift */; };
+		69CD8A07253F26E50039429D /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CD8A06253F26E50039429D /* config.swift */; };
+		69CD8A0A253F28040039429D /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CD8A09253F28040039429D /* Validations.swift */; };
+		69CD8A0D253F287D0039429D /* helperAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CD8A0C253F287D0039429D /* helperAuth.swift */; };
+		69CD8A10253F288C0039429D /* htmlToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CD8A0F253F288C0039429D /* htmlToString.swift */; };
+		69CD8A13253F28AD0039429D /* loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CD8A12253F28AD0039429D /* loader.swift */; };
+		69CD8A16253F28C90039429D /* navHerlper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CD8A15253F28C90039429D /* navHerlper.swift */; };
+		69CD8A19253F29070039429D /* showAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CD8A18253F29070039429D /* showAlert.swift */; };
+		69CD8A1C253F292C0039429D /* strikethroughLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CD8A1B253F292C0039429D /* strikethroughLabel.swift */; };
+		D2A3CBE835977B107D9E140A /* Pods_Cairo_Cart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C86FC8C9339720295ED137D /* Pods_Cairo_Cart.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +43,17 @@
 		691FAB58253F0D1F00BC7B20 /* imageViewCostom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageViewCostom.swift; sourceTree = "<group>"; };
 		691FAB5B253F0D4000BC7B20 /* textFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textFieldView.swift; sourceTree = "<group>"; };
 		691FAB5E253F0D5A00BC7B20 /* viewCosttom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewCosttom.swift; sourceTree = "<group>"; };
+		69CD8A06253F26E50039429D /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		69CD8A09253F28040039429D /* Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
+		69CD8A0C253F287D0039429D /* helperAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helperAuth.swift; sourceTree = "<group>"; };
+		69CD8A0F253F288C0039429D /* htmlToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = htmlToString.swift; sourceTree = "<group>"; };
+		69CD8A12253F28AD0039429D /* loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loader.swift; sourceTree = "<group>"; };
+		69CD8A15253F28C90039429D /* navHerlper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navHerlper.swift; sourceTree = "<group>"; };
+		69CD8A18253F29070039429D /* showAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showAlert.swift; sourceTree = "<group>"; };
+		69CD8A1B253F292C0039429D /* strikethroughLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strikethroughLabel.swift; sourceTree = "<group>"; };
+		6C86FC8C9339720295ED137D /* Pods_Cairo_Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cairo_Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5994E87ECD5D0AC62F877C /* Pods-Cairo Cart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cairo Cart.release.xcconfig"; path = "Target Support Files/Pods-Cairo Cart/Pods-Cairo Cart.release.xcconfig"; sourceTree = "<group>"; };
+		C898953F099BB16F6E8521A9 /* Pods-Cairo Cart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cairo Cart.debug.xcconfig"; path = "Target Support Files/Pods-Cairo Cart/Pods-Cairo Cart.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A3CBE835977B107D9E140A /* Pods_Cairo_Cart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +73,8 @@
 			children = (
 				691FAB30253EFB4B00BC7B20 /* Cairo Cart */,
 				691FAB2F253EFB4B00BC7B20 /* Products */,
+				D55BFDF3863132C539E38FC6 /* Pods */,
+				BDE9AC09710D647A3C2A9DCF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,7 +89,6 @@
 		691FAB30253EFB4B00BC7B20 /* Cairo Cart */ = {
 			isa = PBXGroup;
 			children = (
-				691FAB50253F096700BC7B20 /* View */,
 				691FAB4F253F095800BC7B20 /* URLs */,
 				691FAB4B253F08F900BC7B20 /* Model */,
 				691FAB4A253F08A800BC7B20 /* Fonts */,
@@ -74,6 +96,7 @@
 				691FAB47253F074600BC7B20 /* Controller */,
 				691FAB46253F072400BC7B20 /* API Service */,
 				691FAB4C253F093000BC7B20 /* Others */,
+				691FAB50253F096700BC7B20 /* View */,
 				691FAB4E253F094700BC7B20 /* Storyboard */,
 				691FAB3F253EFB4D00BC7B20 /* Info.plist */,
 			);
@@ -97,6 +120,13 @@
 		691FAB48253F086800BC7B20 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				69CD8A09253F28040039429D /* Validations.swift */,
+				69CD8A0C253F287D0039429D /* helperAuth.swift */,
+				69CD8A0F253F288C0039429D /* htmlToString.swift */,
+				69CD8A12253F28AD0039429D /* loader.swift */,
+				69CD8A15253F28C90039429D /* navHerlper.swift */,
+				69CD8A18253F29070039429D /* showAlert.swift */,
+				69CD8A1B253F292C0039429D /* strikethroughLabel.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -138,6 +168,7 @@
 		691FAB4F253F095800BC7B20 /* URLs */ = {
 			isa = PBXGroup;
 			children = (
+				69CD8A06253F26E50039429D /* config.swift */,
 			);
 			path = URLs;
 			sourceTree = "<group>";
@@ -154,6 +185,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		BDE9AC09710D647A3C2A9DCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C86FC8C9339720295ED137D /* Pods_Cairo_Cart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D55BFDF3863132C539E38FC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C898953F099BB16F6E8521A9 /* Pods-Cairo Cart.debug.xcconfig */,
+				AA5994E87ECD5D0AC62F877C /* Pods-Cairo Cart.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 691FAB42253EFB4D00BC7B20 /* Build configuration list for PBXNativeTarget "Cairo Cart" */;
 			buildPhases = (
+				FDC88426A7BE7654D45BDCDB /* [CP] Check Pods Manifest.lock */,
 				691FAB2A253EFB4B00BC7B20 /* Sources */,
 				691FAB2B253EFB4B00BC7B20 /* Frameworks */,
 				691FAB2C253EFB4B00BC7B20 /* Resources */,
+				41999E32D5C6A3DC5BC1E43E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,6 +269,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41999E32D5C6A3DC5BC1E43E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cairo Cart/Pods-Cairo Cart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cairo Cart/Pods-Cairo Cart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cairo Cart/Pods-Cairo Cart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDC88426A7BE7654D45BDCDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cairo Cart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		691FAB2A253EFB4B00BC7B20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -228,9 +320,17 @@
 				691FAB36253EFB4B00BC7B20 /* ViewController.swift in Sources */,
 				691FAB5C253F0D4000BC7B20 /* textFieldView.swift in Sources */,
 				691FAB32253EFB4B00BC7B20 /* AppDelegate.swift in Sources */,
+				69CD8A10253F288C0039429D /* htmlToString.swift in Sources */,
+				69CD8A0A253F28040039429D /* Validations.swift in Sources */,
+				69CD8A1C253F292C0039429D /* strikethroughLabel.swift in Sources */,
+				69CD8A13253F28AD0039429D /* loader.swift in Sources */,
 				691FAB56253F0D0800BC7B20 /* buttonView.swift in Sources */,
+				69CD8A16253F28C90039429D /* navHerlper.swift in Sources */,
 				691FAB34253EFB4B00BC7B20 /* SceneDelegate.swift in Sources */,
+				69CD8A0D253F287D0039429D /* helperAuth.swift in Sources */,
+				69CD8A07253F26E50039429D /* config.swift in Sources */,
 				691FAB52253F0CE100BC7B20 /* BadgedButtonItem.swift in Sources */,
+				69CD8A19253F29070039429D /* showAlert.swift in Sources */,
 				691FAB59253F0D1F00BC7B20 /* imageViewCostom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,6 +475,7 @@
 		};
 		691FAB43253EFB4D00BC7B20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C898953F099BB16F6E8521A9 /* Pods-Cairo Cart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -395,6 +496,7 @@
 		};
 		691FAB44253EFB4D00BC7B20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA5994E87ECD5D0AC62F877C /* Pods-Cairo Cart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
